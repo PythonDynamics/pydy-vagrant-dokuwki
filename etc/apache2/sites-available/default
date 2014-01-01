@@ -1,6 +1,8 @@
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 
+	ServerName localhost
+
 	DocumentRoot /var/www
 	<Directory />
 		Options FollowSymLinks
